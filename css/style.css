@@ -1,0 +1,101 @@
+/* ------------------------ */
+/*         GENERAL          */
+/* ------------------------ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+/* ------------------------ */
+/*     CONTAINER LAYOUT     */
+/* ------------------------ */
+
+.layout-container{
+    height: 620px;
+    width: 440px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.qr-code-container {
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.qr-code {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.description-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 28px;
+    font-weight: 700;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: hsl(216, 15%, 48%);
+    font-size: 18px;
+    width: 290px;
+    text-align: center;
+}
+
+
+/* ------------------------ */
+/*     RESPONSIVE WEBSITE    */
+/* ------------------------ */
+
+/* ------------------------ */
+/*         DESKTOP          */
+/* ------------------------ */
+
+@media (min-width: 750px) {
+    .layout-container {
+        height: 550px;
+        width: 400px;
+    }
+
+    .qr-code-container {
+        height: 350px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .attribution {
+       padding-top: 20px;
+    }
+}
