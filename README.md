@@ -46,47 +46,6 @@ This code was unnecessarily complex and made the design harder to manage. By sim
 To improve the clarity and coherence of the documentation, I used artificial intelligence tools. This helped me generate more understandable and well-structured descriptions in the comments and explanations of the code, making it easier to read and understand the solution.
 
 
-# "Document written in Spanish" 
+## Live Preview
+Check out the live version of the project here: [Live Demo](https://manorcoder.github.io/qr-code-generator/)
 
-## Frontend Mentor - Solución al componente QR code
-
-## Proceso de implementación
-
-Al principio, analicé y revisé los requisitos del desafío y la guía de estilo, prestando especial atención al diseño móvil para implementarlo correctamente. Me aseguré de seguir las pautas del diseño para garantizar que el componente QR se ajustara a lo que se esperaba.
-
-### Pasos del proceso:
-
-1. **Estructura móvil**: El primer paso fue centrarme en la estructura básica del diseño para móvil, asegurándome de que el componente fuera simple y funcional en pantallas pequeñas.
-   
-2. **Nombrado de clases**: En el segundo paso, utilicé un poco de ayuda de IA para mejorar los nombres de las clases. Personalmente, me cuesta encontrar nombres claros y comprensibles para las clases, por lo que esta ayuda fue útil para darles una nomenclatura más significativa.
-
-3. **Diseño con CSS**: El tercer paso fue el diseño con CSS. Aquí tuve algunos problemas con la implementación de la responsividad para escritorio, ya que cometí errores en la disposición de los contenedores y la descripción. Sin embargo, logré corregir estos errores y ajustar el diseño.
-
-### Proceso de construcción:
-
-- **Enfoque móvil primero**: Empecé trabajando en el diseño para dispositivos móviles, siguiendo la metodología "mobile-first".
-- **Uso de Flexbox**: Utilicé Flexbox para organizar los elementos de manera eficiente y asegurarme de que el contenido se centrara correctamente.
-- **Diseño con CSS**: Apliqué las propiedades de estilo para que el componente fuera visualmente atractivo y funcional.
-- **Media queries para escritorio**: Implementé media queries para ajustar el diseño en pantallas más grandes y asegurarme de que se mantuviera responsive.
-
-### Lo que aprendí
-
-Una de las lecciones más importantes que aprendí fue la necesidad de mejorar en la estructuración del HTML, especialmente en la creación de contenedores y cajas. A veces tiendo a agregar elementos innecesarios que complican el diseño. Aprendí que es mejor mantenerlo simple y evitar el exceso de contenedores.
-
-Un ejemplo que hice anteriormente:
-
-```html
-<div class="description-container">
-  <div>
-    <h2 class="title">Improve your front-end skills by building projects</h2>
-  </div>
-  <div>
-    <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
-</div>
-```
-
-Este código era innecesariamente complejo y complicaba el diseño. Al simplificarlo, pude hacer que el componente fuera más limpio y fácil de mantener.
-
-### Uso de IA para mejorar la redacción de la documentación
-Para mejorar la claridad y coherencia de la documentación, utilicé herramientas de inteligencia artificial. Esto me ayudó a generar descripciones más comprensibles y bien estructuradas en los comentarios y explicaciones del código, lo que facilitó la lectura y comprensión de la solución.
